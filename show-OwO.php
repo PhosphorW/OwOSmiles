@@ -6,7 +6,7 @@
 function smiley_trans() {
 	global $wpsmiliestrans;
 	global $s_filedata;
-	$s_path = ABSPATH.'wp-content/themes/akina/OwO/alu/';
+	$s_path = ABSPATH.'wp-content/themes/akina/OwO/alu/'; //your address
 	$s_filedata     = glob( $s_path."*.png" );
 
 	if ( ! isset( $wpsmiliestrans ) ) {
